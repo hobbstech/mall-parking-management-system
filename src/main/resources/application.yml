@@ -1,0 +1,11 @@
+spring:
+  jpa:
+    hibernate:
+      naming:
+        implicit-strategy: org.springframework.boot.orm.jpa.hibernate.SpringImplicitNamingStrategy
+      ddl-auto: update
+    database: mysql
+  datasource:
+    username: hobbs
+    password: hobbs123!@#
+    url: jdbc:mysql://localhost:3306/lost_and_found_test?createDatabaseIfNotExist=true
