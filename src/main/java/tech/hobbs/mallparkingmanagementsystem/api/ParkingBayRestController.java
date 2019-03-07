@@ -1,7 +1,5 @@
 package tech.hobbs.mallparkingmanagementsystem.api;
 
-import io.github.hobbstech.commonsutils.exceptions.InvalidRequestException;
-import io.github.hobbstech.commonsutils.exceptions.RecordNotFoundException;
 import org.springframework.web.bind.annotation.*;
 import tech.hobbs.mallparkingmanagementsystem.entities.ParkingBay;
 import tech.hobbs.mallparkingmanagementsystem.repository.ParkingBayRepository;
@@ -9,6 +7,8 @@ import tech.hobbs.mallparkingmanagementsystem.service.ParkingBayService;
 import tech.hobbs.mallparkingmanagementsystem.service.dtos.BayRequest;
 import tech.hobbs.mallparkingmanagementsystem.service.dtos.CreateParkingBayRequest;
 import tech.hobbs.mallparkingmanagementsystem.service.dtos.OccupyingRequest;
+import tech.hobbs.mallparkingmanagementsystem.utils.exceptions.InvalidRequestException;
+import tech.hobbs.mallparkingmanagementsystem.utils.exceptions.RecordNotFoundException;
 
 import java.util.Collection;
 

@@ -1,11 +1,11 @@
 package tech.hobbs.mallparkingmanagementsystem.api;
 
-import io.github.hobbstech.commonsutils.exceptions.RecordNotFoundException;
 import org.springframework.web.bind.annotation.*;
 import tech.hobbs.mallparkingmanagementsystem.entities.Section;
 import tech.hobbs.mallparkingmanagementsystem.repository.SectionRepository;
-import tech.hobbs.mallparkingmanagementsystem.service.dtos.CreateSectionRequest;
 import tech.hobbs.mallparkingmanagementsystem.service.SectionService;
+import tech.hobbs.mallparkingmanagementsystem.service.dtos.CreateSectionRequest;
+import tech.hobbs.mallparkingmanagementsystem.utils.exceptions.RecordNotFoundException;
 
 import java.util.Collection;
 

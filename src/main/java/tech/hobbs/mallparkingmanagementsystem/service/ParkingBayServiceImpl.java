@@ -1,6 +1,5 @@
 package tech.hobbs.mallparkingmanagementsystem.service;
 
-import io.github.hobbstech.commonsutils.exceptions.RecordNotFoundException;
 import lombok.val;
 import org.springframework.stereotype.Service;
 import tech.hobbs.mallparkingmanagementsystem.entities.ParkingBay;
@@ -10,6 +9,7 @@ import tech.hobbs.mallparkingmanagementsystem.repository.SectionRepository;
 import tech.hobbs.mallparkingmanagementsystem.service.dtos.BayRequest;
 import tech.hobbs.mallparkingmanagementsystem.service.dtos.CreateParkingBayRequest;
 import tech.hobbs.mallparkingmanagementsystem.service.dtos.OccupyingRequest;
+import tech.hobbs.mallparkingmanagementsystem.utils.exceptions.RecordNotFoundException;
 
 import java.util.Date;
 

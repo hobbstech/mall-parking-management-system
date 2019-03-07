@@ -1,12 +1,12 @@
 package tech.hobbs.mallparkingmanagementsystem.service;
 
-import io.github.hobbstech.commonsutils.exceptions.InvalidRequestException;
-import io.github.hobbstech.commonsutils.exceptions.RecordNotFoundException;
 import lombok.val;
 import org.springframework.stereotype.Service;
 import tech.hobbs.mallparkingmanagementsystem.entities.Section;
 import tech.hobbs.mallparkingmanagementsystem.repository.SectionRepository;
 import tech.hobbs.mallparkingmanagementsystem.service.dtos.CreateSectionRequest;
+import tech.hobbs.mallparkingmanagementsystem.utils.exceptions.InvalidRequestException;
+import tech.hobbs.mallparkingmanagementsystem.utils.exceptions.RecordNotFoundException;
 
 @Service
 public class SectionServiceImpl implements SectionService {
