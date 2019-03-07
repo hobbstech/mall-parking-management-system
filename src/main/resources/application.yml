@@ -9,3 +9,6 @@ spring:
     username: hobbs
     password: hobbs123!@#
     url: jdbc:mysql://localhost:3306/lost_and_found_test?createDatabaseIfNotExist=true
+
+server:
+  port: ${PORT}
